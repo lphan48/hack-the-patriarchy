@@ -51,7 +51,7 @@ function Navbar() {
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
+              fontFamily: "Bigshot",
               fontWeight: 700,
               letterSpacing: ".3rem",
               color: "#DD6DCC",
@@ -74,6 +74,8 @@ function Navbar() {
                   my: 2,
                   color: "#DD6DCC",
                   display: "block",
+                  fontFamily: "Bigshot",
+                  textDecoration: "none",
                 }}
               >
                 <Link to={page}>{page}</Link>
