@@ -47,7 +47,7 @@ function BudgetPage() {
   const incomeTableStyle = {
     border: "1px solid #F3C19D",
     width: 500,
-    height: 270,
+    height: 273,
     marginTop: 20,
     marginLeft: 20,
     marginBottom: 30,
@@ -56,7 +56,7 @@ function BudgetPage() {
   const savingsTableStyle = {
     border: "1px solid #F3C19D",
     width: 500,
-    height: 185,
+    height: 188,
     marginTop: 20,
     marginLeft: 20,
     marginBottom: 30,
@@ -65,7 +65,7 @@ function BudgetPage() {
   const expensesTableStyle = {
     border: "1px solid #F3C19D",
     width: 500,
-    height: 445,
+    height: 450,
     marginTop: 20,
     marginLeft: 20,
     marginBottom: 30,

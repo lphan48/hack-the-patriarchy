@@ -21,7 +21,7 @@ function AboutPage() {
   const descriptionStyle = {
     fontFamily: "Times New Roman, sans-serif",
     fontSize: "18px",
-    paddingTop: 30,
+    paddingTop: 40,
     marginLeft: "20%",
     width: "60%",
   };
@@ -55,7 +55,8 @@ function AboutPage() {
                 paddingTop: 5,
               }}
             >
-              Lauren Phan
+              Computer Science and Biology <br />
+              Class of 2026
             </Typography>
           </Grid>
           <Grid item>
@@ -71,6 +72,16 @@ function AboutPage() {
               }}
             />
             <Typography style={nameStyle}>Nicole Buckley</Typography>
+            <Typography
+              style={{
+                fontFamily: "Times New Roman, sans-serif",
+                fontSize: "18px",
+                paddingTop: 5,
+              }}
+            >
+              Computer <br />
+              Class of 2024
+            </Typography>
           </Grid>
           <Grid item>
             <img
@@ -85,6 +96,16 @@ function AboutPage() {
               }}
             />
             <Typography style={nameStyle}>Gabby Hylton</Typography>
+            <Typography
+              style={{
+                fontFamily: "Times New Roman, sans-serif",
+                fontSize: "18px",
+                paddingTop: 5,
+              }}
+            >
+              Computer Science and Economic <br />
+              Class of 2026
+            </Typography>
           </Grid>
           <Grid item>
             <img
@@ -99,6 +120,16 @@ function AboutPage() {
               }}
             />
             <Typography style={nameStyle}>Shree Singhal</Typography>
+            <Typography
+              style={{
+                fontFamily: "Times New Roman, sans-serif",
+                fontSize: "18px",
+                paddingTop: 5,
+              }}
+            >
+              Computer Science and Computer Engineering <br />
+              Class of 2026
+            </Typography>
           </Grid>
         </Grid>
         <Typography style={descriptionStyle}>
