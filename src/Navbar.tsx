@@ -12,6 +12,8 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
+import AboutPage from "./AboutPage";
+import { Link } from "react-router-dom";
 
 const pages = ["Budget", "Resources", "About"];
 
@@ -75,7 +77,7 @@ function Navbar() {
                   display: "block",
                 }}
               >
-                {page}
+                <Link to={page}>{page}</Link>
               </Button>
             ))}
           </Box>

@@ -2,11 +2,22 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Navbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BudgetPage from "./BudgetPage";
+import ResourcesPage from "./Resourcespage";
+import AboutPage from "./AboutPage";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/Budget" element={<BudgetPage />} />
+          <Route path="/Resources" element={<ResourcesPage />} />
+          <Route path="/About" element={<AboutPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
