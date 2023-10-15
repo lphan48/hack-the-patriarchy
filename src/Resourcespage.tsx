@@ -5,7 +5,7 @@ import investing from "./images/investing.jpeg";
 
 function ResourcesPage() {
   const headingStyle = {
-    fontFamily: "Times New Roman, sans-serif",
+    fontFamily: "Bigshot",
     fontSize: "40px",
     paddingTop: 50,
   };

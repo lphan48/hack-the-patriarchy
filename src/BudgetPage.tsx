@@ -72,7 +72,7 @@ function BudgetPage() {
   };
 
   const titleStyle = {
-    fontFamily: "Times New Roman, sans-serif",
+    fontFamily: "Bigshot",
     fontSize: "40px",
     paddingTop: 30,
   };

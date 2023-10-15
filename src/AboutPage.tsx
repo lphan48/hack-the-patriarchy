@@ -6,7 +6,7 @@ import shree from "./images/shree-headshot.jpeg";
 
 function AboutPage() {
   const headingStyle = {
-    fontFamily: "Times New Roman, sans-serif",
+    fontFamily: "Bigshot",
     fontSize: "40px",
     paddingTop: 50,
   };
