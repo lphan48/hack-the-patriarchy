@@ -5,6 +5,7 @@ import BudgetPage from "./BudgetPage";
 import ResourcesPage from "./Resourcespage";
 import AboutPage from "./AboutPage";
 import Home from "./Home";
+import Transactions from "./Transactions";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Budget" element={<BudgetPage />} />
           <Route path="/Resources" element={<ResourcesPage />} />
           <Route path="/About" element={<AboutPage />} />
+          <Route path="/Transactions" element={<Transactions />} />
         </Routes>
       </BrowserRouter>
     </div>
