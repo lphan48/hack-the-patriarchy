@@ -89,14 +89,15 @@ function AboutPage() {
                 border: "5px solid pink",
               }}
             />
-            <Typography style={nameStyle}>Shree Neghal</Typography>
+            <Typography style={nameStyle}>Shree Singhal</Typography>
           </Grid>
         </Grid>
         <Typography style={descriptionStyle}>
           We are a dedicated group of Northeastern Students driving positive
-          change in the field of financial literacy for women. Together, we're
-          determined to create innovative solutions and resources that empower
-          women to take control of their financial futures and thrive.
+          change in the field of financial literacy for women. As broke college
+          students in a male dominated industry, we're determined to create
+          innovative solutions and resources that empower women to take control
+          of their financial futures and thrive.
         </Typography>
       </Box>
     </div>
