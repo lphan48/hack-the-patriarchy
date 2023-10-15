@@ -21,7 +21,7 @@ function ResourcesPage() {
   const descriptionStyle = {
     fontFamily: "Times New Roman, sans-serif",
     fontSize: "23px",
-    paddingTop: 50,
+    paddingTop: 10,
     marginLeft: "20%",
     width: "60%",
   };
