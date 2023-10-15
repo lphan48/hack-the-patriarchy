@@ -1,15 +1,10 @@
 import { Box, Grid, Typography } from "@mui/material";
-import lauren from "./lauren-headshot.jpg";
-import nicole from "./nicole-headshot.jpeg";
-import gabby from "./gabby-headshot.jpeg";
-import shree from "./shree-headshot.jpeg";
-import background from "./background.jpeg";
+import lauren from "./images/lauren-headshot.jpg";
+import nicole from "./images/nicole-headshot.jpeg";
+import gabby from "./images/gabby-headshot.jpeg";
+import shree from "./images/shree-headshot.jpeg";
 
 function AboutPage() {
-  const pageStyle = {
-    backgroundImage: background,
-  };
-
   const headingStyle = {
     fontFamily: "Times New Roman, sans-serif",
     fontSize: "40px",
@@ -32,7 +27,7 @@ function AboutPage() {
   };
 
   return (
-    <div className="About" style={pageStyle}>
+    <div className="About">
       <Typography style={headingStyle}>About the Team</Typography>
       <Box
         sx={{
