@@ -48,6 +48,15 @@ function AboutPage() {
               }}
             />
             <Typography style={nameStyle}>Lauren Phan</Typography>
+            <Typography
+              style={{
+                fontFamily: "Times New Roman, sans-serif",
+                fontSize: "18px",
+                paddingTop: 5,
+              }}
+            >
+              Lauren Phan
+            </Typography>
           </Grid>
           <Grid item>
             <img
