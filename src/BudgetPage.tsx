@@ -368,7 +368,7 @@ function BudgetPage() {
             </Table>
           </TableContainer>
         </div>
-        <div style={{ flex: 1, border: "1px solid #F3C19D" }}>
+        <div style={{ flex: 1, border: 0 }}>
           <BarChart
             xAxis={[
               {
