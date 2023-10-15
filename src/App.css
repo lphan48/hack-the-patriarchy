@@ -31,6 +31,16 @@
   padding: 5vh;
 }
 
+.link {
+  text-decoration:  none;
+  color: '#ff6666';
+  font-size: 20;
+}
+
+.link:hover {
+  text-decoration:  none;
+  color:'#ff6666';
+}
 
 .gradientContainer { 
   width: 100vw;

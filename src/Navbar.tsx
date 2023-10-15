@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import AboutPage from "./AboutPage";
 import { Link } from "react-router-dom";
+import "./App.css";
 
 const pages = ["Budget", "Resources", "About", "Transactions"];
 
@@ -41,7 +42,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: "white" }}>
+    <AppBar position="static" sx={{ backgroundColor: "white", color: "pink"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -53,18 +54,18 @@ function Navbar() {
               display: { xs: "none", md: "flex" },
               fontFamily: "Bigshot",
               fontWeight: 700,
-              letterSpacing: ".3rem",
-              color: "#DD6DCC",
+              color: "#ff6666",
               textDecoration: "none",
             }}
           >
-            <Link to={"/Home"}>GIRL MATH</Link>
+            <Link to={"/Home"} className="link">girl math</Link>
           </Typography>
           <Box
             sx={{
               flexGrow: 1,
               display: { xs: "none", md: "flex" },
             }}
+            className="link"
           >
             {pages.map((page) => (
               <Button
@@ -72,13 +73,14 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
-                  color: "#DD6DCC",
+                  color: "#ff6666",
                   display: "block",
                   fontFamily: "Bigshot",
                   textDecoration: "none",
                 }}
+                className="link"
               >
-                <Link to={page}>{page}</Link>
+                <Link to={page} className="link" color="#ff6666">{page}</Link>
               </Button>
             ))}
           </Box>

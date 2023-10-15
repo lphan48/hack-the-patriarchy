@@ -79,7 +79,7 @@ function AboutPage() {
                 paddingTop: 5,
               }}
             >
-              Computer <br />
+              Computer Science<br />
               Class of 2024
             </Typography>
           </Grid>

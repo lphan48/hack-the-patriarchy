@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 import { FormControl, InputAdornment, InputLabel, OutlinedInput, Button } from "@mui/material";
-import "./App.css";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -9,6 +8,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import { pink } from "@mui/material/colors";
 
 function Transactions() {
   
@@ -29,7 +29,7 @@ function Transactions() {
 }
 
   return (
-    <div className='page'>
+    <div className='page' style={{background: 'pink'}}>
          {/* Input */}
         <div> 
             <FormControl fullWidth sx={{ m: 1, width: "30ch", background: 'white', borderRadius: 1 }}>
