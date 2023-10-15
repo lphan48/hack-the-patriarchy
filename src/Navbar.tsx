@@ -12,6 +12,8 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
+import AboutPage from "./AboutPage";
+import { Link } from "react-router-dom";
 
 const pages = ["Budget", "Resources", "About"];
 
@@ -46,18 +48,17 @@ function Navbar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
-              fontFamily: "monospace",
+              fontFamily: "Bigshot",
               fontWeight: 700,
               letterSpacing: ".3rem",
               color: "#DD6DCC",
               textDecoration: "none",
             }}
           >
-            GIRL MATH
+            <Link to={"/Home"}>GIRL MATH</Link>
           </Typography>
           <Box
             sx={{
@@ -73,9 +74,11 @@ function Navbar() {
                   my: 2,
                   color: "#DD6DCC",
                   display: "block",
+                  fontFamily: "Bigshot",
+                  textDecoration: "none",
                 }}
               >
-                {page}
+                <Link to={page}>{page}</Link>
               </Button>
             ))}
           </Box>
