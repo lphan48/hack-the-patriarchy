@@ -185,47 +185,6 @@ function BudgetPage() {
             </Table>
           </TableContainer>
 
-          <TableContainer style={savingsTableStyle} aria-label="savingsTable">
-            <Table>
-              <TableHead>
-                <TableRow>
-                  <TableCell align="center" style={topRowStyle}>
-                    Savings
-                  </TableCell>
-                  <TableCell align="center" style={topRowStyle}>
-                    Amount
-                  </TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                <TableRow>
-                  <TableCell align="left" style={cellStyle}>
-                    Total Income
-                  </TableCell>
-                  <TableCell align="right" style={cellStyle}>
-                    {totalIncomeAmount}
-                  </TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell align="left" style={cellStyle}>
-                    Total Expenses
-                  </TableCell>
-                  <TableCell align="right" style={cellStyle}>
-                    {totalExpensesAmount}
-                  </TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell align="center" style={bottomRowStyle}>
-                    Total Savings
-                  </TableCell>
-                  <TableCell align="center" style={bottomRowStyle}>
-                    {calculateTotalSavings()}
-                  </TableCell>
-                </TableRow>
-              </TableBody>
-            </Table>
-          </TableContainer>
-
           <TableContainer style={expensesTableStyle} aria-label="expensesTable">
             <Table>
               <TableHead>
@@ -345,6 +304,47 @@ function BudgetPage() {
                   </TableCell>
                   <TableCell align="center" style={bottomRowStyle}>
                     {totalExpensesAmount}
+                  </TableCell>
+                </TableRow>
+              </TableBody>
+            </Table>
+          </TableContainer>
+
+          <TableContainer style={savingsTableStyle} aria-label="savingsTable">
+            <Table>
+              <TableHead>
+                <TableRow>
+                  <TableCell align="center" style={topRowStyle}>
+                    Savings
+                  </TableCell>
+                  <TableCell align="center" style={topRowStyle}>
+                    Amount
+                  </TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                <TableRow>
+                  <TableCell align="left" style={cellStyle}>
+                    Total Income
+                  </TableCell>
+                  <TableCell align="right" style={cellStyle}>
+                    {totalIncomeAmount}
+                  </TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="left" style={cellStyle}>
+                    Total Expenses
+                  </TableCell>
+                  <TableCell align="right" style={cellStyle}>
+                    {totalExpensesAmount}
+                  </TableCell>
+                </TableRow>
+                <TableRow>
+                  <TableCell align="center" style={bottomRowStyle}>
+                    Total Savings
+                  </TableCell>
+                  <TableCell align="center" style={bottomRowStyle}>
+                    {calculateTotalSavings()}
                   </TableCell>
                 </TableRow>
               </TableBody>
