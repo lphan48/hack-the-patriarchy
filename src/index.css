@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: pink;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face { 
+  font-family: 'Bigshot';
+  src: local('BigshotOne-Regular'), 
+  url(https://fonts.gstatic.com/s/bigshotone/v29/u-470qukhRkkO6BD_7cM_jxpWwNjXe__.woff2) format('woff2');
 }

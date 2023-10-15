@@ -1,11 +1,10 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Navbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BudgetPage from "./BudgetPage";
 import ResourcesPage from "./Resourcespage";
 import AboutPage from "./AboutPage";
+import Home from "./Home";
 
 function App() {
   return (
@@ -18,6 +17,8 @@ function App() {
           <Route path="/About" element={<AboutPage />} />
         </Routes>
       </BrowserRouter>
+      <Home />
+      <BudgetPage />
     </div>
   );
 }
