@@ -56,7 +56,7 @@ function BudgetPage() {
   const savingsTableStyle = {
     border: "1px solid #F3C19D",
     width: 500,
-    height: 225,
+    height: 185,
     marginTop: 20,
     marginLeft: 20,
     marginBottom: 30,
