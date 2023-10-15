@@ -211,24 +211,7 @@ function BudgetPage() {
                     Total Expenses
                   </TableCell>
                   <TableCell align="right" style={cellStyle}>
-                    <FormControl fullWidth sx={{ m: 1, width: "30ch" }}>
-                      <InputLabel htmlFor="outlined-adornment-amount">
-                        Amount
-                      </InputLabel>
-                      <OutlinedInput
-                        id="outlined-adornment-amount"
-                        type="number"
-                        startAdornment={
-                          <InputAdornment position="start">$</InputAdornment>
-                        }
-                        label="Amount"
-                        size="small"
-                        value={totalExpensesAmount}
-                        onChange={(e) =>
-                          setTotalExpensesAmount(parseFloat(e.target.value))
-                        }
-                      />
-                    </FormControl>
+                    {totalExpensesAmount}
                   </TableCell>
                 </TableRow>
                 <TableRow>
