@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./App.css";
 
 function Home() {
   const titleContainer = {
@@ -15,13 +15,13 @@ function Home() {
   const title = {
     color: 'white', 
     fontFamily: 'Bigshot',
-    fontSize: 50,
+    fontSize: 70,
     
   }
 
   return (
     <div className="Home">
-      <div className="Home-gradient"> 
+      <div className="gradientContainer"> 
         <div style={titleContainer}>
         <div style={title}>
             girl math
