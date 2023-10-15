@@ -16,7 +16,6 @@ function Home() {
     color: 'white', 
     fontFamily: 'Bigshot',
     fontSize: 70,
-    
   }
 
   return (
