@@ -15,7 +15,7 @@ import AdbIcon from "@mui/icons-material/Adb";
 import AboutPage from "./AboutPage";
 import { Link } from "react-router-dom";
 
-const pages = ["Budget", "Resources", "About"];
+const pages = ["Budget", "Resources", "About", "Transactions"];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
